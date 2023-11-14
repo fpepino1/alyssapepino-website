@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ART | alyssapepino</title>
+    <link rel="stylesheet" href="src/art.css" />
+    <script src="src/alyssapepino_artpage.js" defer></script>
+  </head>
+
+  <body>
+    <nav>
+      <button class="logoButton">
+        <a href="alyssapepino_index.html">
+          <h1 class="logo">alyssapepino</h1>
+        </a>
+      </button>
+
+      <ul>
+        <li>
+          <button class="navButton">
+            <a href="alyssapepino_aboutpage.html" class="about"> ABOUT </a>
+          </button>
+        </li>
+        <li>
+          <button class="navButton">
+            <a href="alyssapepino_artpage.html" class="art"> ART </a>
+          </button>
+        </li>
+      </ul>
+    </nav>
+    <div class="image-gallery">
+      <button id="modal-button" class="image-tile disable-interaction">
+        <img src="media/FilipinoVendors.jpg" alt="Image 1" />
+
+        <div class="image-description">
+          <p>
+            <strong>"Filipino Vendors"</strong>. (2023). <em>Oil Painting</em>.
+          </p>
+        </div>
+      </button>
+
+      <button id="modal-button" class="image-tile disable-interaction">
+        <img src="media/ChaiInDubai.jpg" alt="Image 2" />
+
+        <div class="image-description">
+          <p>
+            <strong> "Chai in Dubai"</strong>. (2022). <em>Oil Painting</em>.
+          </p>
+        </div>
+      </button>
+
+      <button id="modal-button" class="image-tile disable-interaction">
+        <img src="media/Emotions.jpg" alt="Image 3" />
+
+        <div class="image-description">
+          <p><strong>"Emotions"</strong>. (2021). <em>Oil Painting</em>.</p>
+        </div>
+      </button>
+
+      <button id="modal-button" class="image-tile disable-interaction">
+        <img src="media/01Model.jpg" alt="Image 4" />
+
+        <div class="image-description">
+          <p><strong>"01Model"</strong>. 2020. <em>Watercolor Painting</em>.</p>
+        </div>
+      </button>
+
+      <button id="modal-button" class="image-tile disable-interaction">
+        <img src="media/02Model.jpg" alt="Image 5" />
+
+        <div class="image-description">
+          <p><strong>"02Model"</strong>. 2020. <em>Watercolor Painting</em>.</p>
+        </div>
+      </button>
+
+      <button id="modal-button" class="image-tile disable-interaction">
+        <img src="media/03Model.jpg" alt="Image 6" />
+
+        <div class="image-description">
+          <p><strong>"03Model"</strong>. 2020. <em>Watercolor Painting</em>.</p>
+        </div>
+      </button>
+
+      <button id="modal-button" class="image-tile disable-interaction">
+        <img src="media/ConfidenceModesty.jpg" alt="Image 7" />
+
+        <div class="image-description">
+          <p>
+            <strong>"Confidence & Modesty"</strong>. 2016.
+            <em>Acrylyc Painting</em>.
+          </p>
+        </div>
+      </button>
+    </div>
+
+    <div id="modal" class="modal">
+      <button class="modal-close">—</button>
+      <img id="modal-content" class="modal-content" />
+      <div id="image-caption" class="image-caption"></div>
+      <button id="modal-prev" class="modal-nav prev"><</button>
+      <button id="modal-next" class="modal-nav next">></button>
+    </div>
+
+    <footer>
+      <div class="copyright">
+        <em>Farrah Alyssa Pepino</em> &mdash; alyssapepino &copy 2023
+      </div>
+    </footer>
+  </body>
+</html>
