@@ -223,7 +223,7 @@ li {
   .navButton {
     text-align: center;
     display: block;
-    margin: 10px auto;
+    margin: 20px auto;
   }
 
   .modal {
@@ -234,6 +234,7 @@ li {
   .modal-content {
     padding-top: 40%;
     position: -webkit-sticky;
+    font: 16px;
   }
   #modal-prev {
     top: 350px;
