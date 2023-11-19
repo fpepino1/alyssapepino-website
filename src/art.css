@@ -162,7 +162,7 @@ li {
 #modal-prev {
   position: fixed;
   top: 50%;
-  left: 40px;
+  left: 30px;
   transform: translateY(-50%);
   background-color: transparent;
   border-style: none;
@@ -177,7 +177,7 @@ li {
 #modal-next {
   position: fixed;
   top: 50%;
-  right: 40px;
+  right: 30px;
   transform: translateY(-50%);
   background-color: transparent;
   border-style: none;
