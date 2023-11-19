@@ -248,7 +248,7 @@ li {
     text-align: center;
     width: 90%;
     position: absolute;
-    top: 550px;
+    bottom: 350px;
     font-size: 10px;
   }
 }
