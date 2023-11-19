@@ -237,17 +237,18 @@ li {
   }
   #modal-prev {
     top: 350px;
-    left: 5px;
+    left: 1.5px;
   }
 
   #modal-next {
     top: 350px;
-    right: 5px;
+    right: 1.5px;
   }
   .image-caption {
     text-align: center;
     width: 90%;
     position: absolute;
     top: 150px;
+    font-size: 10px;
   }
 }
