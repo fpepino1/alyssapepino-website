@@ -233,8 +233,10 @@ li {
   }
   .modal-content {
     padding-top: 40%;
+    margin-left: 20%;
+    margin-right: 20%;
     position: -webkit-sticky;
-    font: 16px;
+    font: 10px;
   }
   #modal-prev {
     top: 350px;
