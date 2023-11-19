@@ -237,13 +237,12 @@ li {
   }
   #modal-prev {
     top: 350px;
-    left: 30px;
+    left: 10px;
   }
 
   #modal-next {
     top: 350px;
-
-    right: 30px;
+    right: 10px;
   }
   .image-caption {
     text-align: center;
