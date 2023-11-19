@@ -223,7 +223,7 @@ li {
   .navButton {
     text-align: center;
     display: block;
-    margin: 20px auto;
+    margin: 10px auto;
   }
 
   .modal {
@@ -247,9 +247,8 @@ li {
   }
   .image-caption {
     text-align: center;
-    width: 45%;
+    width: 90%;
     position: absolute;
-    bottom: 200px;
-    font-size: 16px;
+    top: 150px;
   }
 }
