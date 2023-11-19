@@ -149,7 +149,7 @@ li {
 .modal-close {
   position: fixed;
   top: 10px;
-  right: 25px;
+  right: 15px;
   cursor: pointer;
   font-size: 24px;
   color: white;
@@ -162,7 +162,7 @@ li {
 #modal-prev {
   position: fixed;
   top: 50%;
-  left: 25px;
+  left: 15px;
   transform: translateY(-50%);
   background-color: transparent;
   border-style: none;
@@ -177,7 +177,7 @@ li {
 #modal-next {
   position: fixed;
   top: 50%;
-  right: 25px;
+  right: 15px;
   transform: translateY(-50%);
   background-color: transparent;
   border-style: none;
